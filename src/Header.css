@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  background-color: #f5f8fc;
+  padding: 10px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.header__middle {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  background-color: #e9f1fb;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header__middle > .MuiIcon-root {
+  color: #001d35;
+}
+
+.header__middle > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.header__middle > input::placeholder {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #001d35;
+}
+
+.header__right {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
