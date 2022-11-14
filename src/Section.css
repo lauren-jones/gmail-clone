@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  width: 100%;
+  padding: 20px 15px;
+  color: #464948;
+}
+
+.section:hover {
+  background-color: #f4f4f4;
+}
+
+.section--selected {
+  border-bottom: 3px solid #0957d0;
+  color: #0957d0;
+}
+
+.section--title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.section--icon {
+  font-size: 1.1rem !important;
+  margin-right: 15px !important;
+}
