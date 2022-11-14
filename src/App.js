@@ -1,13 +1,22 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Mail from "./Mail";
+import EmailList from "./EmailList";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Sidebar />
+      <div className="app__body">
+        <Sidebar />
+        <Routes>
+          <Route path="/mail" element={<Mail />} />
+          <Route path="/" element={<EmailList />} />
+        </Routes>
+      </div>
     </div>
   );
 }
