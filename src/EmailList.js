@@ -50,13 +50,13 @@ function EmailList() {
       <div className="emailList_list">
         <EmailRow
           title="Amazon"
-          subject="Something interesting"
-          description="This is a description This is a description This is a description"
+          subject="Subject"
+          description="Description here with blah blah blah blah"
           time="10pm"
         />
         <EmailRow
           title="Google"
-          subject="Something interesting"
+          subject="Subject"
           description="This is a description"
           time="10pm"
         />

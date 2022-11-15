@@ -1,0 +1,69 @@
+.mail {
+  flex: 1;
+  background: white;
+  border-top-left-radius: 10px;
+}
+
+.mail__tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.mail__toolsLeft {
+  display: flex;
+}
+
+.mail_toolsIcon {
+  font-size: 1.2rem !important;
+  color: #444746 !important;
+  padding: 5px !important;
+}
+
+.mail_toolsLeft_Group {
+  padding-left: 15px;
+}
+
+.mail__body {
+  padding-left: 40px;
+}
+
+.mail__bodyHeader > h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.mail__bodyHeader > p {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  margin-top: -8px;
+  color: #888888;
+}
+
+.mail__message > p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  overflow-wrap: break-word;
+}
+
+.mail__bodyHeader_senderInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.mail__bodyHeader_senderInfo h3,
+.mail__bodyHeader_senderInfo p {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.mail__bodyHeader_time,
+.mail__bodyHeader_email {
+  color: #888888;
+}
